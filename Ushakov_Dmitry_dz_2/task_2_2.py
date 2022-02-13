@@ -2,9 +2,9 @@
 user_lst = ['в', '5', 'часов', '17', 'минут', 'температура', 'воздуха', 'была', '+5', 'градусов']
 print(user_lst)
 
-length_of_list: int = len(user_lst)
+list_length: int = len(user_lst)
 id_name = id(user_lst)
-for _ in range(length_of_list):
+for i in range(list_length):
     elem = user_lst.pop(0)
     if elem.isdigit() and elem.isalnum():
         user_lst.append(f'"{int(elem):02d}"')
