@@ -23,8 +23,3 @@ for idx in range(len(lst)):
         sum_number2 += lst[idx]
 print(sum_number1)
 print(sum_number2)
-
-
-
-
-
