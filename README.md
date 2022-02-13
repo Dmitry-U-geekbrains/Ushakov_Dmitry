@@ -1,2 +1,3 @@
 # Ushakov_Dmitry
-https://github.com/Dmitry-U-geekbrains/Ushakov_Dmitry/pull/1
+dz_1
+dz_2
