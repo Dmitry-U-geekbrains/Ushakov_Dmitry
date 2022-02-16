@@ -7,7 +7,7 @@ id_name = id(user_lst)
 for i in range(list_length):
     elem = user_lst.pop(0)
     if elem.isdigit() and elem.isalnum():
-        user_lst.append(f'"{int(elem):02d}"')
+        user_lst.append(f'"+{int(elem):02d}"')
     elif elem[0] == "+" and elem[1].isdigit():
         user_lst.append(f'"+{int(elem):02d}"')
     else:
