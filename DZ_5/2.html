@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework</title>
+</head>
+<body>
+   
+<!-- 
+ 2. Сделать генерацию корзины динамической: верстка корзины не должна находиться в
+HTML-структуре. Там должен быть только div, в который будет вставляться корзина,
+сгенерированная на базе JS:
+a. Пустая корзина должна выводить строку «Корзина пуста»;
+b. Наполненная должна выводить «В корзине: n товаров на сумму m рублей».
+
+ -->
+
+  <div id="main" class="container">
+    <div>
+        <ul>
+            <li>"Корзина пуста"</li>
+            <li>"В корзине: 5 товаров на сумму 17 896 рублей"</li>
+            
+        </ul>
+    </div>
+          
+    
+    <div id="cart" class="cart">
+         	
+        <div class="trolley">&#128722; </div>
+         
+     </div>
+     
+     
+     
+     
+      
+  </div>
+
+
+   <script src="js/script.js"></script>   
+   <script src="js/doc.js"></script>
+   <script>
+        window.onload = createCatalog('main');
+        window.onload = showCart('cart');  
+       
+       
+    </script> 
+    
+</body>
+</html>
